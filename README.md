@@ -10,4 +10,4 @@ OBSERVAÇÃO !!!
   
   
   
-  Inicialmente criado por Áquila Mazzei e Arthur Ranquine.
+  Inicialmente criado por Áquila Mazzei e Arthur Ranquine (IN204) em 2018, podendo ser continuado por futuros alunos, para ser adicionados os créditos, apenas de um Pull Request que irei adicionar logo abaixo.
