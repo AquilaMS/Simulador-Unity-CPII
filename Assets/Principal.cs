@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Principal : MonoBehaviour {
+	public GameObject canvas;
 	//
 	public float altura_b1, velocidade_b1, tempo_b1;
 	public float altura_b2, velocidade_b2, tempo_b2;
@@ -34,6 +36,7 @@ public class Principal : MonoBehaviour {
 		checar_planeta();
 		checar_btn();
 		botao_reiniciar();
+		checar_btn_mudar_cena();
 	}
 	
 	public void iniciar_bola1(){
@@ -152,6 +155,12 @@ public class Principal : MonoBehaviour {
 	void botao_reiniciar(){
 		if(Input.GetKeyDown(KeyCode.R)){
 			resetar();
+		}
+	}
+
+	public void checar_btn_mudar_cena(){
+		if(Input.GetKeyDown(KeyCode.E)){
+			SceneManager.LoadScene(0);
 		}
 	}
 }
