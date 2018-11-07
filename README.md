@@ -1,8 +1,9 @@
 # Simulador Unity CPII
-  !!!!!!!!!!!!!!! A versão padrão é a 1.0, para mudar clique em Banch de baixo de Commit !!!!!!!!!!!!!!!
+  !!!!!!!!! A versão padrão é a 1.0, para mudar clique em Banch de baixo de Commit !!!!!!!!
   --
-  Como usar ?
-    - Os slider laterais reresentam os metros, de 0 a 10, você pode escolher a altura para cada uma das bolas mas por padrão elas começam a 5 metros de altura.
+  
+   Como usar ?
+  - Os slider laterais reresentam os metros, de 0 a 10, você pode escolher a altura para cada uma das bolas mas por padrão elas começam a 5 metros de altura.
   - Para reiniciar o layout, aperte R.
   - Escolha alguns dos atuais 3 planetas, Terra, Marte, Lua, a sua escolha fará a gravidade mudar para o planeta escolhido.
   - Aperte um dos botões para simular a queda.
