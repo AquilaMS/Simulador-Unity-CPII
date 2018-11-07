@@ -1,4 +1,5 @@
 # Simulador Unity CPII
+!!!!!!!!!!!!!!! A versão padrão é a 1.0, para mudar clique em Banch de baixo de Commit !!!!!!!!!!!!!!!
 Como usar ?
   - Os slider laterais reresentam os metros, de 0 a 10, você pode escolher a altura para cada uma das bolas mas por padrão elas começam a 5 metros de altura.
    - Para reiniciar o layout, aperte R.
