@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class Principal : MonoBehaviour {
 	public GameObject canvas;
-	//
+	//teste git 2 de novo
 	public float altura_b1, velocidade_b1, tempo_b1;
 	public float altura_b2, velocidade_b2, tempo_b2;
 	public float gravidade;
