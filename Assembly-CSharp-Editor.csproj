@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9445111E-F4A9-E566-ACCE-5610AABF625E}</ProjectGuid>
+    <ProjectGuid>{3A1BF028-890E-4AB8-C9C3-04C157FC4197}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -88,16 +88,16 @@
      <Compile Include="Assets\terceiros_PostProcessing\Editor\Utils\FxStyles.cs" />
      <Compile Include="Assets\terceiros_PostProcessing\Editor\Utils\ReflectionUtils.cs" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>C:/Users/aquil/Documents/Simulador 2.2/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/aquil/Documents/Simulador Final/Simulador-Unity-CPII-1.2.1/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/aquil/Documents/Simulador 2.2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/aquil/Documents/Simulador Final/Simulador-Unity-CPII-1.2.1/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/aquil/Documents/Simulador 2.2/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>C:/Users/aquil/Documents/Simulador Final/Simulador-Unity-CPII-1.2.1/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/aquil/Documents/Simulador 2.2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/aquil/Documents/Simulador Final/Simulador-Unity-CPII-1.2.1/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -387,11 +387,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{17EA44E8-526C-70A2-72C3-CFA0DABD58ED}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{B46BE21B-BF8C-5664-7DD1-793E5BFDE7AA}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{F499EF8B-B96E-5AA2-AF66-C5BE3919B0D8}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{97CF8DF4-CE4F-AA9D-51F0-A365A5BB664C}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
-      <Project>{B390B7F4-BD43-B88B-41B2-7C1A02C0B75D}</Project>      <Name>Assembly-CSharp-Editor-firstpass</Name>    </ProjectReference>
+      <Project>{0B9FCB6E-3370-62A5-E2F5-4F947E3B13DD}</Project>      <Name>Assembly-CSharp-Editor-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

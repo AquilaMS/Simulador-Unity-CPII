@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class Principal : MonoBehaviour {
 	public GameObject canvas;
-	//
+	//teste git 2 de novo
 	public float altura_b1, velocidade_b1, tempo_b1;
 	public float altura_b2, velocidade_b2, tempo_b2;
 	public float gravidade;
@@ -36,12 +36,21 @@ public class Principal : MonoBehaviour {
     public Material[] skies;
 	//public Renderer render;
 	//
+
+	public int target = 30;
+      
+      void Awake()
+      {
+          QualitySettings.vSyncCount = 0;
+          Application.targetFrameRate = target;
+      }
+
 	void Start () {
 		iniciar();
         altura_input_b1.text = "5";
         altura_input_b2.text = "5";
 	}
-	void Update () {
+	void FixedUpdate () {
 		checar_input();
 		gravidade_drop();
 		sliders();
@@ -50,8 +59,16 @@ public class Principal : MonoBehaviour {
 		checar_btn();
 		botao_reiniciar();
 		checar_btn_mudar_cena();
+
+		if(Application.targetFrameRate != target){
+              Application.targetFrameRate = target;
+		}
 		
 	}
+
+	  
+      
+     
 	
 	public void iniciar_bola1(){
 		if(altura_input_b1.text != ""){
@@ -128,8 +145,8 @@ public class Principal : MonoBehaviour {
 			velocidade_b1 = gravidade * tempo_b1;
 
 			txt_altura_b1.GetComponent<TextMesh>().text = "Altura = " + altura_input_b1.text;
-			txt_vel_b1.GetComponent<TextMesh>().text = "Velocidade = " + velocidade_b1.ToString("#.00");
-			txt_queda_b1.GetComponent<TextMesh>().text = "Tempo de queda = " + tempo_b1.ToString("#.00");
+			txt_vel_b1.GetComponent<TextMesh>().text = "Velocidade = " + velocidade_b1.ToString();
+			txt_queda_b1.GetComponent<TextMesh>().text = "Tempo de queda = " + tempo_b1.ToString();
 		}
 
 		if(bola2_colidiu == false && rb_bola2.isKinematic == false){
@@ -139,8 +156,8 @@ public class Principal : MonoBehaviour {
 			velocidade_b2 = gravidade * tempo_b2;
 
 			txt_altura_b2.GetComponent<TextMesh>().text = "Altura = " + altura_input_b2.text;
-			txt_vel_b2.GetComponent<TextMesh>().text = "Velocidade = " + velocidade_b2.ToString("#.00");
-			txt_queda_b2.GetComponent<TextMesh>().text = "Tempo de queda = " + tempo_b2.ToString("#.00");
+			txt_vel_b2.GetComponent<TextMesh>().text = "Velocidade = " + velocidade_b2.ToString();
+			txt_queda_b2.GetComponent<TextMesh>().text = "Tempo de queda = " + tempo_b2.ToString();
 		}
 		
 		
